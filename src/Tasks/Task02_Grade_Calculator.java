@@ -1,4 +1,4 @@
-package ex_05_Ternary_Operator;
+package Tasks;
 
 import java.util.Scanner;
 

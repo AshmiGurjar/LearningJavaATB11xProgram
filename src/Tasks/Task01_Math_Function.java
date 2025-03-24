@@ -1,4 +1,4 @@
-package ex_03_Java_Operators;
+package Tasks;
 
 public class Task01_Math_Function {
     public static void main(String[] args) {
