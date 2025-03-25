@@ -8,14 +8,14 @@ public class Lab026_PrePost_Decrement {
 
         int a =10;
         int b =--a;
-        System.out.println(b);
-        System.out.println(a);
+        System.out.println(b); //9
+        System.out.println(a); //9
 
         //Post-Increment -> Operand--
-        //Value is print first and then Decremented first
+        //Value is print first and then Decremented
         //Decreased by 1
         int a_post=10;
-        System.out.println("Post Decrement value: "+a_post--);
-        System.out.println(a_post);
+        System.out.println("Post Decrement value: "+a_post--); //10
+        System.out.println(a_post); //9
     }
 }
