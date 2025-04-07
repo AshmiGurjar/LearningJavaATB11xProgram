@@ -6,10 +6,12 @@ public class Lab051_StringFunction {
          char A ='A';
          System.out.println(A);
 
-         String s = "Test";
 
-         //1. length
-         System.out.println(s.length());
+         String s = "test";
+
+         //1. length()
+        String str = "Hello";
+        System.out.println(str.length()); // Output: 5
 
          //2. UpperCase
         System.out.println(s.toUpperCase());
@@ -28,10 +30,14 @@ public class Lab051_StringFunction {
         System.out.println(s.trim());
 
         //7. Replace
-        System.out.println(s.replace("e","a"));
+        String rpl = "banana";
+        System.out.println(rpl.replace('a', 'o'));       // bonono
+        System.out.println(rpl.replaceAll("na", "NA"));  // baNANA
 
         //8. Contains
-        System.out.println(s.contains("test"));
+        String str1 = "I love Java";
+        System.out.println(str1.contains("Java")); // true
+
 
         //9. Case-insensitive check
         System.out.println(s.equalsIgnoreCase(s));
@@ -64,6 +70,11 @@ public class Lab051_StringFunction {
         System.out.println(s.compareTo("Test"));
         System.out.println(s.compareToIgnoreCase("Test"));
 
+        //17. isEmpty() /isBlank (Java 11+)
+        String a = "";
+        String b = "   ";
+        System.out.println(a.isEmpty()); // true
+        System.out.println(b.isBlank()); // true
 
     }
 }
