@@ -9,7 +9,7 @@ public class Task10_Vowels_Consonants {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the string: ");
         String message = scanner.nextLine();
-        message = message.toLowerCase();
+                                                                                                                                        message = message.toLowerCase();
 
         int vowels=0;
         int consonants=0;
