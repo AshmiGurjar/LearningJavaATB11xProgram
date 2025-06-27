@@ -5,7 +5,6 @@ public class Lab033_Forloop {
         //For Loop
         //help you to repeat a block of code
 
-
         //Initialization > Condition > Updation(Inc/Dec)
         for (int i = 0; i < 10; i++) {
             System.out.println(i);

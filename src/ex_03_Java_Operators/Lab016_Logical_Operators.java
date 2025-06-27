@@ -8,5 +8,7 @@ public class Lab016_Logical_Operators {
         System.out.println(!!b);
         boolean c=true || false;
         System.out.println(c);
+
+        // Logical Operator: && || !
     }
 }

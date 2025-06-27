@@ -5,8 +5,6 @@ public class Lab051_StringFunction {
 
          char A ='A';
          System.out.println(A);
-
-
          String s = "test";
 
          //1. length()
@@ -38,7 +36,6 @@ public class Lab051_StringFunction {
         String str1 = "I love Java";
         System.out.println(str1.contains("Java")); // true
 
-
         //9. Case-insensitive check
         System.out.println(s.equalsIgnoreCase(s));
 
@@ -51,7 +48,6 @@ public class Lab051_StringFunction {
         //12. Find Index
         System.out.println(s.indexOf('s'));
         System.out.println(s.lastIndexOf('s')); //Find last index
-
 
         //13. Split
         String name = "Test@123@Democlass";
